@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 # 0-square.py by Hassan Masinde
-"""module that defines a square """
+"""Module that defines a square """
 
 
 class Square:
-    """A class that represents a square"""
+    """Class that represents a square"""
 
     def __init__(self, size=0):
         """Initializing this square class
@@ -23,7 +23,7 @@ class Square:
         self.__size = size
 
     @property
-    def sizr(self):
+    def size(self):
         """Retrieves size of square"""
 
         return self.__size
@@ -38,7 +38,7 @@ class Square:
 
     def area(self):
         """
-        cal area of the square
+        Calculate area of the square
         Returns: The square of the size
         """
 
